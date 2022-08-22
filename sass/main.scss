@@ -1,0 +1,26 @@
+
+// ============basic==================
+@import "basic/variables";
+@import "basic/reset";
+
+// ============Abstracts==================
+
+@import "abstracts/mixins";
+@import "abstracts/utilities";
+
+// ===========Layout==================
+
+@import "layout/footer";
+
+// ===========Layout==================
+
+@import "pages/home";
+@import "pages/contractor";
+@import "pages/property-info";
+@import "pages/measurement";
+@import "pages/length";
+@import "pages/areas";
+@import "pages/content";
+@import "pages/side_views";
+@import "pages/summary-1";
+@import "pages/notes";

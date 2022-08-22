@@ -1,0 +1,49 @@
+//---------------header--------------- 
+.header {
+    padding-left: 40px;
+    padding-top: 30px;
+
+    &__logo {
+        width: 140px;
+        height: auto;
+        object-fit: contain;
+    }
+
+    &__link {
+        text-transform: uppercase;
+        border-bottom: 2px solid $color-secondary;
+        padding: 0 35px;
+    }
+
+}
+
+//---------------content--------------- 
+.content__list {
+    width: 100%;
+    padding: 0 40px;
+    margin: 0 auto;
+    margin-top: 60px;
+
+    &--item {
+        margin-bottom: 12px;
+        width: 100%;
+
+        &-name {
+            text-transform: uppercase;
+            padding-right: 8px;
+            max-width: max-content;
+            width: 100%;
+            white-space: nowrap;
+        }
+
+        &-dots {
+            width: 100%;
+            border-top: 2px dotted $color-secondary;
+            display: inline-block;
+        }
+
+        &-count {
+            padding-left: 8px;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+//---------------logo--------------- 
+.roof_logo {
+    max-width: 260px;
+    width: 100%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+
+    img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+}
+
+.roof-heading {
+    padding: 0 20px;
+}
+
+.social-link {
+    padding: 20px;
+    max-width: 370px;
+    width: 100%;
+    margin: auto;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+
+    li {
+        margin-bottom: 11px;
+    }
+}
+
+.date {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 50px;
+}

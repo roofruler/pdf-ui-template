@@ -1,0 +1,26 @@
+//---------------views--------------- 
+.views {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-top: 50px;
+
+    &__box {
+        .view-top {
+            margin-bottom: 7px;
+            text-transform: uppercase;
+        }
+
+        .bottom-view {
+            margin-top: 7px;
+            text-transform: uppercase;
+        }
+
+        &--image {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+}

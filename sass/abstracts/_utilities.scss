@@ -1,0 +1,72 @@
+//---------------general classes--------------- 
+.wrapper{
+    max-width: 794px;
+    height: 1123px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 10px 10px rgba(0,0,0,.08);
+    padding-bottom: 30px;
+}
+
+.text-center{
+    text-align: center
+}
+.flex{
+    display: flex;
+}
+.item-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.flex-col{
+    flex-direction: column;
+}
+.gap-05{
+gap: 5px
+} 
+.gap-1{
+ gap: 10px;   
+}
+.gap-15{
+    gap: 15px;
+}
+.gap-20{
+    gap: 20px;
+}
+.gap-30{
+    gap: 30px;
+}
+//---------------special classes--------------- 
+.text-header{
+    @include text(21,700,30,#0d3384);
+}
+.text-body{
+    @include text(16,700,22,#0d3384);
+}
+.text-footer{   
+    @include text(12,700,18,#0d3384);
+}
+.text-table-default{
+    @include text(14,700,20,#0d3384);
+}
+.text-table-custom{
+    @include text(14,700,20,#009CD9);
+}
+//---------------specific classes--------------- 
+.notes-diagram{
+    margin-top: 60px;
+    .note-img{
+        margin-bottom: 50px;
+    }
+    
+}
+.pitches_text{
+    max-width: 590px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 30px auto;
+    margin-bottom: 0;
+}

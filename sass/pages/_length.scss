@@ -1,0 +1,118 @@
+//---------------eaves--------------- 
+.eaves {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    padding: 26px 15px;
+    padding-bottom: 15px;
+
+    &__box {
+        display: grid;
+        grid-template-columns: max-content 1fr;
+        gap: 5px;
+        width: 100%;
+
+        &-bar {
+            width: 13px;
+            height: 4px;
+            margin-top: 6px;
+            display: inline-block;
+        }
+
+        .bar-1 {
+            background-color: green;
+        }
+
+        .bar-2 {
+            background-color: rgb(255, 189, 89);
+        }
+
+        .bar-3 {
+            background-color: rgb(13, 57, 132);
+        }
+
+        .bar-4 {
+            background-color: rgb(96, 63, 139);
+        }
+
+        .bar-5 {
+            background-color: rgb(188, 24, 35);
+        }
+
+        .bar-6 {
+            background-color: rgb(92, 225, 230);
+        }
+    }
+}
+
+.eaves-note {
+    padding-top: 5px;
+}
+
+//---------------direction--------------- 
+.direction {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: flex-end;
+
+    &_needle {
+        width: auto;
+        height: auto;
+        object-fit: contain;
+    }
+}
+
+//---------------parapet wall--------------- 
+
+.parapet {
+    width: 100%;
+    padding: 0 25px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+
+    &__box {
+        display: grid;
+        grid-template-columns: max-content 1fr;
+        gap: 8px;
+
+        &--bar {
+            width: 14px;
+            height: 4px;
+            display: inline-block;
+            margin-top: 6px;
+        }
+
+        .bar-3first {
+            width: 5px;
+            height: 4px;
+            background-color: #87CA51;
+            display: inline-block;
+        }
+
+        .bar-3second {
+            width: 9px;
+            height: 4px;
+            background-color: #87CA51;
+            display: inline-block;
+
+        }
+
+        .bar-dot {
+            width: 4.5px;
+            height: 4px;
+            display: inline-block;
+            background-color: #FFBD59;
+        }
+
+        .bar-1 {
+            background-color: rgb(255, 102, 196);
+        }
+
+        .bar-2 {
+            background-color: #737373;
+        }
+    }
+}
